@@ -1,5 +1,5 @@
 
-# 🌟 Projet de Gestion de Microservices  
+# 🌟 Projet ECOM Microservices  
 
 Ce projet implémente un système complet avec une architecture **microservices** et une interface utilisateur développée en **Angular** pour gérer 🧑‍💼 les clients, 🛍️ les produits, et 📦 les commandes.  
 
@@ -14,6 +14,7 @@ Ce projet implémente un système complet avec une architecture **microservices*
 5. **🌐 Eureka Discovery Service** : Annuaire pour enregistrer et découvrir les microservices.  
 6. **📑 Configuration-Service** : Centralisation des configurations.  
 
+![Capture d'écran Customer-Service](./screens/1.png)
 ---
 
 ### 📚 Technologies utilisées  
@@ -52,13 +53,13 @@ Chaque microservice expose des fonctionnalités via des endpoints RESTful.
 
 ### 🖥️ Screenshots Backend  
 - **📋 Customer-Service** :  
-  ![Capture d'écran Customer-Service](./screens/customers-backend.png)  
+  ![Capture d'écran Customer-Service](./screens/2.png)  
 
 - **📦 Inventory-Service** :  
-  ![Capture d'écran Inventory-Service](./screens/products-backend.png)  
+  ![Capture d'écran Inventory-Service](./screens/3.png)  
 
 - **🧾 Billing-Service** :  
-  ![Capture d'écran Billing-Service](./screens/orders-backend.png)  
+  ![Capture d'écran Billing-Service](./screens/4.png)  
 
 ---
 
@@ -69,8 +70,8 @@ L'interface utilisateur est développée avec **Angular** pour offrir une expér
 ---
 
 ### Fonctionnalités  
-1. **Gestion des clients** : Affichage de la liste des clients, ajout, modification et suppression.  
-2. **Gestion des produits** : Affichage de la liste des produits, ajout, modification et suppression.  
+1. **Gestion des clients** : Affichage de la liste des clients.
+2. **Gestion des produits** : Affichage de la liste des produits.  
 3. **Gestion des commandes** : Affichage des factures et des détails des commandes.  
 
 ---
@@ -78,7 +79,7 @@ L'interface utilisateur est développée avec **Angular** pour offrir une expér
 ### 📚 Technologies utilisées  
 - **🅰️ Angular** : Framework pour le frontend.  
 - **📦 Bootstrap** : Design responsive et moderne.  
-- **🔗 Axios** : Communication avec les API REST du backend.  
+ 
 
 ---
 
@@ -86,15 +87,16 @@ L'interface utilisateur est développée avec **Angular** pour offrir une expér
 
 #### Customers  
 Interface utilisateur pour gérer les clients :  
-![Capture d'écran Customers](./screens/customers-frontend.png)  
+![Capture d'écran Customers](./screens/5.png)  
 
 #### Products  
 Interface utilisateur pour gérer les produits :  
-![Capture d'écran Products](./screens/products-frontend.png)  
+![Capture d'écran Products](./screens/6.png)  
 
 #### Orders  
 Interface utilisateur pour gérer les commandes :  
-![Capture d'écran Orders](./screens/orders-frontend.png)  
+![Capture d'écran Orders](./screens/7.png)  
+![Capture d'écran Orders](./screens/8.png)
 
 ---
 
@@ -106,7 +108,7 @@ Interface utilisateur pour gérer les commandes :
 4. Accédez à l'interface **Eureka** à l'adresse [localhost:8761](http://localhost:8761). 🌐  
 
 ### Frontend  
-1. Accédez au dossier Angular : `cd frontend`.  
+1. Accédez au dossier Angular : ` cd .\ecom-web-app\`.  
 2. Installez les dépendances : `npm install`.  
 3. Lancez l'application : `ng serve`.  
 4. Accédez à l'interface utilisateur : [http://localhost:4200](http://localhost:4200).  
